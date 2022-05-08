@@ -28,6 +28,8 @@ STConfig = EasyDict(
         'output_attentions': False, # no use
         'output_hidden_states': False, # no use 
         'tie_word_embeddings': True, # no use
-        'pruned_heads': {}, # no use
+        'pruned_heads': {}, # no use，
+        'multi-task': True,
+        'lambda': 0.6
     }
 )
