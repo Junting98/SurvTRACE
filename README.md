@@ -38,7 +38,10 @@ Import **metabric** and **support** from **pycox.datasets** could directly gener
 ## Preprocessing/Training/Evaluation code
 
 For baseline models, please refer to the jupyter notebooks.
-For SurvTRACE, please refer to dataset.py/train_utils.py/evaluate_utils.py
+For SurvTRACE, simply run the run.py file. To change the dataset,you need to change the dataset in run.py. 
+To change the lambda value and enable multi-task learning, 
+please change the corresponding parameter in the survtrace/config file.
+
 
 ## Table of Results
 
